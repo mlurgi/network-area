@@ -83,7 +83,7 @@ output_occupancy <- NULL
       print(d)
       for(j in 1:replicates){
         print(j)
-        load(paste('./networks/network-',j,sep=''))
+        load(paste('../networks/network-',j,sep=''))
         S <- food_web$S
         presences <- array(0, c(islands,S))
         for(i in 1:timesteps){
