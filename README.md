@@ -1,9 +1,9 @@
 # network-area
 
-Author: Miguel Lurgi
-Computational Ecology Lab
-Swansea University
-Singleton Park. SA2 8PP. UK.
+Author: Miguel Lurgi  
+Computational Ecology Lab  
+Swansea University  
+Singleton Park. SA2 8PP. UK.  
 
 Scripts implementing the network/area relationship models
 
