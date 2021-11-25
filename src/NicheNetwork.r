@@ -1,8 +1,9 @@
 ## ---------------------------
 ##
-## Script name: simulations.r
+## Script name: NicheNetwork.r
 ##
-## Purpose of script: This script implements the niche model (originally proposed by Williams and Martinez (Nature, 2000)
+## Purpose of script: This script implements the niche model (originally proposed by Williams and Martinez in:
+## Williams, R., Martinez, N. Simple rules yield complex food webs. Nature 404, 180–183 (2000). https://doi.org/10.1038/35004572
 ##
 ## Author: Dr Miguel Lurgi
 ## Lecturer in Biosciences (Computational Ecology)
