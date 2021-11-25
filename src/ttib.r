@@ -1,8 +1,41 @@
+## ---------------------------
+##
+## Script name: ttib.r
+##
+## Purpose of script: This script implements a spatially extended version of the Trophic Theory of Island Biogeography (TTIB)
+## model, originally proposed by Gravel et al. (2011) in:
+##
+## Gravel, D., Massol, F., Canard, E., Mouillot, D. and Mouquet, N. (2011) 
+## Trophic theory of island biogeography. Ecology Letters, 14: 1010-1016. https://doi.org/10.1111/j.1461-0248.2011.01667.x
+## 
+##
+## Author: Dr Miguel Lurgi
+## Lecturer in Biosciences (Computational Ecology)
+## Computational Ecology Lab - Department of Biosciences
+## Swansea University, UK
+## 
+## and
+##
+## Centre for Biodiversity Theory and Modelling
+## Theoretical and Experimental Ecology Station, CNRS, France
+##
+## Date Created: November-2017
+##
+## Copyright (c) Miguel Lurgi, 2017-2021
+## Email: miguel.lurgi@swansea.ac.uk
+##
+## ---------------------------
+##
+## Notes:
+##
+## This script is provided as supplementary material for the paper:
+## Galiana, N., Lurgi, M., Claramunt-López, B. et al. The spatial scaling of species interaction networks. 
+## Nature Ecology & Evolution 2, 782–790 (2018). https://doi.org/10.1038/s41559-018-0517-3
+##
+## ---------------------------
 
-
-setwd('/Users/nuriagaliana/Documents/network_area_new')
-source('NicheNetwork.R')
-source('utils_nu.R')
+source('NicheNetwork.r')
+source('utils.r')
 
 require(cheddar)
 require(igraph)
