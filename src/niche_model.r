@@ -1,4 +1,35 @@
-
+## ---------------------------
+##
+## Script name: niche_model.r
+##
+## Purpose of script: This script implements the aspatial model of network area scaling relationships, where
+## the number of species is a function of area as in classical Species-Area relations (SARs) and links are 
+## randomly chosen from a pre-defined food web.
+##
+## Author: Dr Miguel Lurgi
+## Lecturer in Biosciences (Computational Ecology)
+## Computational Ecology Lab - Department of Biosciences
+## Swansea University, UK
+## 
+## and
+##
+## Centre for Biodiversity Theory and Modelling
+## Theoretical and Experimental Ecology Station, CNRS, France
+##
+## Date Created: November-2017
+##
+## Copyright (c) Miguel Lurgi, 2017-2021
+## Email: miguel.lurgi@swansea.ac.uk
+##
+## ---------------------------
+##
+## Notes:
+##
+## This script is provided as supplementary material for the paper:
+## Galiana, N., Lurgi, M., Claramunt-López, B. et al. The spatial scaling of species interaction networks. 
+## Nature Ecology & Evolution 2, 782–790 (2018). https://doi.org/10.1038/s41559-018-0517-3
+##
+## ---------------------------
 
 #### this is how we enable python in R
 library(rPython)
